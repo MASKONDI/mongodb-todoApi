@@ -27,7 +27,7 @@ db.collection('Users').insert({
 	{
 		return console.log('Unable to insert users',err);
 	}
-	console.log(JSON.stringify(result.ops,undefined,2));
+	console.log(JSON.stringify(reslt.ops,undefined,2));
 });
 	
 	db.close();
